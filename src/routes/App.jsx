@@ -16,7 +16,7 @@ import { useInitialState } from '@hooks/useInitialState';
 import '@styles/global.css';
 
 function App() {
-	const initialState = useInitialState();
+	const initialState = useInitialState(); // Se guarda lo que retorna
 
 	return (
 		<AppContext.Provider value={initialState}>

@@ -8,6 +8,7 @@ function ProductItem({ product }) {
 
 	const handleClick = (item) => {
 		addToCart(item);
+		console.log(item);
 	};
 
 	return (
@@ -18,7 +19,7 @@ function ProductItem({ product }) {
 					<p>${product.price}</p>
 					<p>{product.title}</p>
 				</div>
-				<figure onClick={() => handleClick(item)}>
+				<figure onClick={() => handleClick(product)}>
 					<img src={addToCartImage} alt="" />
 				</figure>
 			</div>
