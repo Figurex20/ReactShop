@@ -1,4 +1,5 @@
 {
+	"homepage": "https://github.com/Figurex20/ReactShop",
 	"name": "react-shop",
 	"version": "1.0.0",
 	"description": "react eshop",
@@ -39,6 +40,5 @@
 		"sass": "^1.49.7",
 		"sass-loader": "^12.4.0",
 		"style-loader": "^3.3.1"
-	},
-	"homepage": "https://github.com/Figurex20/ReactShop"
+	}
 }
