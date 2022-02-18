@@ -20,7 +20,7 @@ function App() {
 
 	return (
 		<AppContext.Provider value={initialState}>
-			<BrowserRouter basename="/ReactShop">
+			<BrowserRouter>
 				<Layout>
 					<Routes>
 						<Route path="/" element={<Home />} />
