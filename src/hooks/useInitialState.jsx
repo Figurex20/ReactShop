@@ -14,9 +14,17 @@ function useInitialState() {
 		});
 	};
 
+	const removeFromCart = (indexValue) => {
+		setState({
+			...state,
+			cart: state.cart.filter((_, index) => index !== indexValue),
+		});
+	};
+
 	return {
 		state,
 		addToCart,
+		removeFromCart,
 	};
 }
 

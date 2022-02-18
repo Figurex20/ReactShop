@@ -51,7 +51,7 @@ function Header() {
 					</li>
 					<li
 						className="navbar-shopping-cart"
-						onClick={setToggleOrders(!toggleOrders)}
+						onClick={() => setToggleOrders(!toggleOrders)}
 					>
 						<img src={shoppingCart} alt="shopping cart" />
 						{cart.length > 0 && <div>{cart.length}</div>}
