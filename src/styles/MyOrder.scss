@@ -7,7 +7,7 @@
 	position: absolute;
 	right: 0;
 	background-color: white;
-	top: 60px;
+	top: 40px;
 	bottom: auto;
 	border-radius: 60px;
 	-webkit-border-radius: 60px;
@@ -15,6 +15,18 @@
 	-ms-border-radius: 60px;
 	-o-border-radius: 60px;
 	border: 1px solid var(--very-light-pink);
+	position: fixed;
+	transition: 1s ease;
+	animation: swipeLeft 1s ease forwards;
+}
+@keyframes swipeLeft {
+	100% {
+		transform: translateY(20px);
+		-webkit-transform: translateY(20px);
+		-moz-transform: translateY(20px);
+		-ms-transform: translateY(20px);
+		-o-transform: translateY(20px);
+	}
 }
 .title-container {
 	display: flex;
