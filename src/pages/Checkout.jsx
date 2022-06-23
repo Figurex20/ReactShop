@@ -12,7 +12,7 @@ const Checkout = () => {
 					<div className="order">
 						<p>
 							<span>03.25.21</span>
-							<span>6 articles</span>
+							<span>10 articles</span>
 						</p>
 						<p>$560.00</p>
 					</div>
