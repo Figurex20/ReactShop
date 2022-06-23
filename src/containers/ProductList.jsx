@@ -12,12 +12,7 @@ function ProductList() {
 		<section className="main-container">
 			<div className="ProductList">
 				{products.map((product) => (
-					<>
-						<p className="div_p">{wordSave}</p>
-						<button className="div-button_delete">X</button>
-						<button className="div-button_copy">copy</button>
-						<p />
-					</>
+					<ProductItem product={product} key={product.id} />
 				))}
 			</div>
 		</section>
